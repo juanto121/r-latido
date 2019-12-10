@@ -41,8 +41,6 @@ self.addEventListener('message', (buffers) => {
     const green = buffers.data.gBuffer
     const blue = buffers.data.bBuffer
 
-    console.log(red.dataValues)
-
     const redVal = [...red.dataValues]
     const greenVal = [...green.dataValues]
     const blueVal = [...blue.dataValues]
