@@ -1,0 +1,41 @@
+.instructions-container {
+    margin: 0 auto;
+}
+
+.start-button {
+    background-color: #D4268F;
+    min-width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 600;
+    margin:0 auto;
+}
+
+.instructions-text {
+    width: 400px;
+    padding: 10px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.instructions-container h1.title {
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.instructions-container h2.subtitle {
+    margin-top: 2px;
+    color: #f3a1c1;
+    font-size: 1.3em;
+}
+
+.instructions-container span.camera {
+    font-size: 5em;
+}

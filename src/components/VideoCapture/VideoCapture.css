@@ -1,0 +1,17 @@
+.videoCaptureContainer {
+    position: relative;
+}
+
+.VideoCapture {
+    clip-path: circle(27% at 50% 50.5%);
+    filter: blur(7px);
+}
+
+canvas {
+    position: absolute;
+    z-index: 9;
+    top: 138px;
+    left: 290px;
+    width: 70px;
+    height: 37px;
+}
