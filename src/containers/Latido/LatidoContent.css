@@ -86,3 +86,8 @@
 .camera-setup-instructions h4{
     color: #d4429e;
 }
+
+.sampling-on {
+    background-color: #ffd6db;
+    cursor: not-allowed;
+}

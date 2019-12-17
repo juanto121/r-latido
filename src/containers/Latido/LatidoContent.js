@@ -3,11 +3,12 @@ import HeartRateMonitor from '../../components/HeartRateMonitor/HeartRateMonitor
 import Instructions from '../../components/Instructions/Instructions'
 import VideoCapture from '../../components/VideoCapture/VideoCapture.js'
 import './LatidoContent.css'
-import HeartMonitor from "../../monitor/HeartMonitor";
-import ImageProcessor from "../../monitor/ImageProcessor";
-import CountDown from "../../components/CountDown/CountDown";
-import BackgroundBlobs from "../../components/BackgroundBlobs/BackgroundBlobs";
-import LatidoHeader from "../../components/LatidoHeader/LatidoHeader";
+import HeartMonitor from "../../monitor/HeartMonitor"
+import ImageProcessor from "../../monitor/ImageProcessor"
+import CountDown from "../../components/CountDown/CountDown"
+import BackgroundBlobs from "../../components/BackgroundBlobs/BackgroundBlobs"
+import LatidoHeader from "../../components/LatidoHeader/LatidoHeader"
+import cn from 'classnames'
 
 const LatidoContent = (props) => {
 
@@ -65,7 +66,7 @@ const LatidoContent = (props) => {
                     <div className="camera-setup-instructions">
                         <h1>Make sure your forehead is centered</h1>
 
-                        <div className="start-button" onClick={() => {
+                        <div className={cn({"start-button":true, "sampling-on": startSampling})} onClick={() => {
                             setStartSampling(true)
                         }}>
                             I'll stay still!
